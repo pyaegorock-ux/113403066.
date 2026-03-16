@@ -1,1 +1,31 @@
 # 113403066.
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Form Example</title>
+</head>
+<body>
+
+    <form>
+        <p>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="Your first name">
+        </p>
+
+        <p>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Your last name">
+        </p>
+
+        <p>
+            <label for="studentid">Student ID:</label><br>
+            <input type="text" id="studentid" name="studentid" value="Your student ID">
+        </p>
+
+        <input type="submit" value="Submit">
+        <input type="重設" value="重設">
+    </form>
+
+</body>
+</html>
